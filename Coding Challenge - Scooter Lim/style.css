@@ -1,0 +1,78 @@
+body{
+    background: url(img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.quadrato_nero{
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: auto;
+    width: 55%;
+    padding: 80px;
+    margin-bottom: 5vh;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-top: 50px;
+}
+
+#titolo{
+    color: rgb(0, 251, 0) ;
+    text-align: center;  
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bottoni{
+    background-color: rgb(0, 255, 0);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gruppo{
+    padding: 0;
+    margin: 0;
+}
+
+#barra_arancione{
+    width: 18vw;
+    height: 30px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+#barra_verde{
+    width: 33vw;
+    height: 30px;
+    background-color: rgb(0, 202, 0);
+    border-radius: 5px;
+}
+
+#barra_rossa{
+    width: 8vw;
+    height: 30px;
+    background-color: rgb(236, 57, 57);
+    border-radius: 5px;
+}
